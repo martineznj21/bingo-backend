@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors({
 	origin: 'https://martineznj21.github.io',
-	methods: ['GET', 'POST']
+	methods: ['GET', 'POST', 'DELETE']
 }));
 app.use(express.json());
 

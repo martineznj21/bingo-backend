@@ -76,5 +76,5 @@ app.get("/api/cards/:code", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Bingo server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
